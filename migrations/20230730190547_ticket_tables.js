@@ -3,10 +3,11 @@
  * @returns { Promise<void> }
  */
 exports.up = function(knex) {
-    return knex.schema.createTable('ticketinfo', function (table) {
+    return knex.schema.createTable('raptorsticketinfo', function (table) {
         table.increments('id').primary();
         table.string('eventname', 100).notNullable();
         table.string('artist', 100).notNullable();
+        table.string('seat').notNullable();
         table.string('location', 255).notNullable();
         table.timestamp('eventtimestart');
         table.timestamp('eventtimeend');
