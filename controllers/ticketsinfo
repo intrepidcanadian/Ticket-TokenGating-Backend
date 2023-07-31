@@ -3,7 +3,7 @@ const knex = require("knex")(require("../knexfile"));
 // Get all tickets
 const getAllTickets = async (req, res) => {
   try {
-    const ticketData = await knex("tickets")
+    const ticketData = await knex("raptorsticketinfo ")
       .select(
         "raptorsticketinfo.id",
         "raptorsticketinfo.eventname",
@@ -15,22 +15,22 @@ const getAllTickets = async (req, res) => {
         "raptorsticketinfo.eventinformation",
         "raptorsticketinfo.image",
         "raptorsticketinfo.created_at",
-        "raotorsticketinfo.updated_at",
+        "raptorsticketinfo.updated_at",
       )
-  
-    res.status(200).json(getAllTickets);
+
+    res.status(200).json(ticketData);
   } catch (error) {
     console.log(error);
     res.status(500).json({ error: "Internal Server Error" });
   }
 };
 
-// Get inventory by ID
+// Get Tickets by ID
 const getTicketById = async (req, res) => {
   const { id } = req.params;
 
   try {
-    const ticketID = await knex("tickets")
+    const ticketID = await knex("raptorsticketinfo ")
       .select(
         "raptorsticketinfo.id",
         "raptorsticketinfo.eventname",
@@ -42,14 +42,14 @@ const getTicketById = async (req, res) => {
         "raptorsticketinfo.eventinformation",
         "raptorsticketinfo.image",
         "raptorsticketinfo.created_at",
-        "raotorsticketinfo.updated_at",
+        "raptorsticketinfo.updated_at",
       )
       .where("raptorsticketinfo.id", id)
 
     if (ticketID.length > 0) {
-      res.status(200).json(inventoryData[0]);
+      res.status(200).json(ticketID);
     } else {
-      res.status(404).send(`Cannot find inventory with id ${id}`);
+      res.status(404).send(`Cannot find ticket with id ${id}`);
     }
   } catch (error) {
     console.log(error);
@@ -59,5 +59,6 @@ const getTicketById = async (req, res) => {
 
 
 module.exports = {
-    getAllTickets,
-    getTicketById}
+  getAllTickets,
+  getTicketById
+}

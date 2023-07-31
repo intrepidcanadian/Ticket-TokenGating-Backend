@@ -8,12 +8,10 @@ router.use(cors());
 
 router
   .route("/")
-  // Get all tickets
   .get(ticketsinfo.getAllTickets)
 
 router
-  .route("/:id")
-  // Get inventory by ID
+  .route("/:id") 
   .get(ticketsinfo.getTicketById)
 
 
