@@ -1,19 +1,15 @@
+
 const express = require("express");
 const router = express.Router();
-const ticketsinfo = require("../controllers/ticketsinfo");
+const merchinfo = require("../controllers/merchinfo");
 const cors = require("cors");
 
 // Enable CORS for all routes in this router
 router.use(cors());
 
 router
-  .route("/")
-  .get(ticketsinfo.getAllTickets)
-
-router
-  .route("/:id") 
-  .get(ticketsinfo.getTicketById)
-
+  .route("/") 
+  .get(merchinfo.getExclusiveMerch)
 
 
 module.exports = router;

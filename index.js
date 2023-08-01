@@ -16,9 +16,11 @@ app.use(cors({ origin: CORS_ORIGIN }));
 
 // ROUTES
 const gameRoutes = require("./routes/tickets");
+const merchRoutes = require("./routes/merch");
 
 // DEFINE ROUTES
 app.use('/api/games/', gameRoutes)
+app.use('/api/merch/', merchRoutes)
 
 
 app.listen(PORT, () => {

@@ -7,7 +7,7 @@ exports.seed = async function (knex) {
   const ticketInfo = [
     {
       id: 1,
-      eventname: `Raptor's Game - Lakers vs. Raptors`,
+      eventname: `Toronto Raptors vs. LA Lakers`,
       artist: `Anthony Davis`,
       seat: `B2-11`,
       location: 'Scotiabank Arena, Toronto, ON',
@@ -17,7 +17,7 @@ exports.seed = async function (knex) {
     },
     {
       id: 2,
-      eventname: `Raptor's Game - Lakers vs. Raptors`,
+      eventname: `Toronto Raptors vs. LA Lakers`,
       artist: `Lebron James`,
       seat: `A15-16`,
       location: 'Scotiabank Arena, Toronto, ON',
@@ -28,7 +28,7 @@ exports.seed = async function (knex) {
     },
     {
       id: 3,
-      eventname: `Raptor's Game - Lakers vs. Raptors`,
+      eventname: `Toronto Raptors vs. LA Lakers`,
       artist: `Anthony Davis`,
       seat: `P7-10`,
       location: 'Scotiabank Arena, Toronto, ON',
@@ -39,7 +39,7 @@ exports.seed = async function (knex) {
     },
     {
       id: 4,
-      eventname: `Raptor's Game - Lakers vs. Raptors`,
+      eventname: `Toronto Raptors vs. LA Lakers`,
       artist: `Lebron James`,
       seat: `T11-09`,
       location: 'Scotiabank Arena, Toronto, ON',
@@ -50,7 +50,7 @@ exports.seed = async function (knex) {
     },
     {
       id: 5,
-      eventname: `Raptor's Game - Lakers vs. Raptors`,
+      eventname: `Toronto Raptors vs. LA Lakers`,
       artist: `Lebron James`,
       seat: `S4-09`,
       location: 'Scotiabank Arena, Toronto, ON',
@@ -61,7 +61,7 @@ exports.seed = async function (knex) {
     },
     {
       id: 6,
-      eventname: `Raptor's Game - Lakers vs. Raptors`,
+      eventname: `Toronto Raptors vs. LA Lakers`,
       artist: `OG Anunoby`,
       seat: `T20-10`,
       location: 'Scotiabank Arena, Toronto, ON',
@@ -72,7 +72,7 @@ exports.seed = async function (knex) {
     },
     {
       id: 7,
-      eventname: `Raptor's Game - Lakers vs. Raptors`,
+      eventname: `Toronto Raptors vs. LA Lakers`,
       artist: `OG Anunoby`,
       seat: `E4-03`,
       location: 'Scotiabank Arena, Toronto, ON',
@@ -83,7 +83,7 @@ exports.seed = async function (knex) {
     },
     {
       id: 8,
-      eventname: `Raptor's Game - Lakers vs. Raptors`,
+      eventname: `Toronto Raptors vs. LA Lakers`,
       artist: `Pascal Siakam`,
       seat: `F10-1`,
       location: 'Scotiabank Arena, Toronto, ON',
@@ -94,7 +94,7 @@ exports.seed = async function (knex) {
     },
     {
       id: 9,
-      eventname: `Raptor's Game - Lakers vs. Raptors`,
+      eventname: `Toronto Raptors vs. LA Lakers`,
       artist: `Pascal Siakam`,
       seat: `C5-22`,
       location: 'Scotiabank Arena, Toronto, ON',
@@ -105,7 +105,7 @@ exports.seed = async function (knex) {
     },
     {
       id: 10,
-      eventname: `Raptor's Game - Lakers vs. Raptors`,
+      eventname: `Toronto Raptors vs. LA Lakers`,
       artist: `Anthony Davis`,
       seat: `A1-23`,
       location: 'Scotiabank Arena, Toronto, ON',
@@ -120,9 +120,10 @@ exports.seed = async function (knex) {
   ];
 
   for (const ticket of ticketInfo) {
+    const imagePath = imagePaths[ticket.id];
     await knex('raptorsticketinfo').insert({
       ...ticket,
-      image: imagePaths(ticket.id),
+      image: imagePath,
       created_at: knex.fn.now(),
       updated_at: knex.fn.now(),
     });

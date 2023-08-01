@@ -1,19 +1,24 @@
 const fs = require('fs');
 const path = require('path');
 
-const imageFolderPath = 'https://raw.githubusercontent.com/intrepidcanadian/nftserver/main/assets/players/'; // Replace this with the folder path where your images are located
+const imageFolderPath = 'https://raw.githubusercontent.com/intrepidcanadian/nftserver/main/assets/players/';
 
 const getImagePath = (id) => {
-  // Generate the image filename based on the artist name and ID
   const imageName = `${id}.png`;
   return path.join(imageFolderPath, imageName);
 };
 
 const imagePaths = {
-  og_anunoby: id => getImagePath(id),
-  pascal_siakam: id => getImagePath(id),
-  lebron_james: id => getImagePath(id),
-  anthony_davis: id => getImagePath(id),
+  1: getImagePath(1),
+  2: getImagePath(2),
+  3: getImagePath(3),
+  4: getImagePath(4),
+  5: getImagePath(5),
+  6: getImagePath(6),
+  7: getImagePath(7),
+  8: getImagePath(8),
+  9: getImagePath(9),
+  10: getImagePath(10),
 };
 
 module.exports = imagePaths;
