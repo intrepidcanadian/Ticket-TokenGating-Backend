@@ -10,7 +10,8 @@ const getExclusiveMerch = async (req, res) => {
         "merchTables.productDescription",
         "merchTables.productMaterial",
         "merchTables.productName",
-        "merchTables.price"
+        "merchTables.price",
+        "merchTables.image",
       )
 
     res.status(200).json(merchData);

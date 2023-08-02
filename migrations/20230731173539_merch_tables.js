@@ -10,9 +10,10 @@ exports.up = function(knex) {
         table.text('productMaterial').notNullable();
         table.text('productName').notNullable();
         table.decimal('price', 10, 2).notNullable();
+        table.string('image');
 });
 };
 
 exports.down = function(knex) {
     return knex.schema.dropTable('merchTables');
-};
+};k
