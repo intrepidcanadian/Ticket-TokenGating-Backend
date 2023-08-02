@@ -19,6 +19,16 @@ const imagePaths = {
   8: getImagePath(8),
   9: getImagePath(9),
   10: getImagePath(10),
+  11: getImagePath(11),
+  12: getImagePath(12),
+  13: getImagePath(13),
+  14: getImagePath(14),
+  15: getImagePath(15),
+  16: getImagePath(16),
+  17: getImagePath(17),
+  18: getImagePath(18),
+  19: getImagePath(19),
+  20: getImagePath(20),
 };
 
 module.exports = imagePaths;
