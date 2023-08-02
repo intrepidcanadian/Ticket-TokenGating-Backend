@@ -29,24 +29,23 @@ exports.seed = async function (knex) {
     {
       id: 3,
       eventname: `Toronto Raptors vs. LA Lakers`,
-      artist: `Anthony Davis`,
-      seat: `P7-10`,
+      artist: `OG Anunoby`,
+      seat: `T20-10`,
       location: 'Scotiabank Arena, Toronto, ON',
       eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
       eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
-      eventinformation: `On the Lakers' side, Anthony Davis is expected to be a force to be reckoned with. Davis, with his exceptional skills in scoring, rebounding, and shot-blocking, is a dominant presence on the court. The Raptors will need to devise a solid defensive strategy to contain the Lakers' star forward and limit his impact on the game.`,
+      eventinformation: `OG is a DPOY candidate. However, as the stars of the game, Pascal Siakam, OG Anunoby, Anthony Davis, and LeBron James will be under immense pressure to deliver. Their ability to lead their respective teams and rise to the occasion will be crucial in determining the game's outcome.`,
 
     },
     {
       id: 4,
       eventname: `Toronto Raptors vs. LA Lakers`,
-      artist: `Lebron James`,
-      seat: `T11-09`,
+      artist: `Pascal Siakam`,
+      seat: `F10-1`,
       location: 'Scotiabank Arena, Toronto, ON',
       eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
       eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
-      eventinformation: `Both teams boast impressive depth in their rosters, with talented role players who can step up when needed. The Raptors have a strong supporting cast, including Scottie Barnes, and Chris Boucher, while the Lakers have players like Austin Reaves, and Rui Hachimura who can make significant contributions.`,
-
+      eventinformation: `As the date of the game draws near, the anticipation continues to build. Basketball enthusiasts worldwide eagerly await the showdown between the Raptors and Lakers, hoping for a memorable display of skill, teamwork, and the sheer passion that makes the NBA such a captivating sport.`,
     },
     {
       id: 5,
@@ -62,14 +61,15 @@ exports.seed = async function (knex) {
     {
       id: 6,
       eventname: `Toronto Raptors vs. LA Lakers`,
-      artist: `OG Anunoby`,
-      seat: `T20-10`,
+      artist: `Anthony Davis`,
+      seat: `P7-10`,
       location: 'Scotiabank Arena, Toronto, ON',
       eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
       eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
-      eventinformation: `OG is a DPOY candidate. However, as the stars of the game, Pascal Siakam, OG Anunoby, Anthony Davis, and LeBron James will be under immense pressure to deliver. Their ability to lead their respective teams and rise to the occasion will be crucial in determining the game's outcome.`,
+      eventinformation: `On the Lakers' side, Anthony Davis is expected to be a force to be reckoned with. Davis, with his exceptional skills in scoring, rebounding, and shot-blocking, is a dominant presence on the court. The Raptors will need to devise a solid defensive strategy to contain the Lakers' star forward and limit his impact on the game.`,
 
     },
+
     {
       id: 7,
       eventname: `Toronto Raptors vs. LA Lakers`,
@@ -81,17 +81,19 @@ exports.seed = async function (knex) {
       eventinformation: `OG Anunoby, known for his defensive prowess, will be a crucial factor for the Raptors' success in this game. Anunoby's ability to guard multiple positions and disrupt opponents' offensive plays makes him a valuable asset for the team. His tenacity and versatility on both ends of the court will play a vital role in neutralizing the Lakers' offensive threats.`,
 
     },
+    
     {
       id: 8,
       eventname: `Toronto Raptors vs. LA Lakers`,
-      artist: `Pascal Siakam`,
-      seat: `F10-1`,
+      artist: `Lebron James`,
+      seat: `T11-09`,
       location: 'Scotiabank Arena, Toronto, ON',
       eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
       eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
-      eventinformation: `As the date of the game draws near, the anticipation continues to build. Basketball enthusiasts worldwide eagerly await the showdown between the Raptors and Lakers, hoping for a memorable display of skill, teamwork, and the sheer passion that makes the NBA such a captivating sport.`,
+      eventinformation: `Both teams boast impressive depth in their rosters, with talented role players who can step up when needed. The Raptors have a strong supporting cast, including Scottie Barnes, and Chris Boucher, while the Lakers have players like Austin Reaves, and Rui Hachimura who can make significant contributions.`,
 
     },
+
     {
       id: 9,
       eventname: `Toronto Raptors vs. LA Lakers`,
