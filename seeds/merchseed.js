@@ -17,13 +17,13 @@ exports.seed = async function (knex) {
   const merchdata = [
     {
       id: 1,
-      product: `Jock's Life By FansSol`,
-      productDescription: `Illustration by the famous FansSol who also drew the Fan Overture`,
+      product: `Summer Vibes`,
+      productDescription: `Be a star. Ask questions. Challenge your Mind`,
     },
     {
       id: 2,
-      product: `Stay Hard Running Set`,
-      productDescription: `Inspired by David Goggins. Never give up. Stay Hard. See what you're made of.`,
+      product: `You don't know me`,
+      productDescription: `There is no multiverse where you know who I am. I am the one who knocks`,
     },
     {
       id: 3,
@@ -108,14 +108,15 @@ exports.seed = async function (knex) {
     },
     {
       id: 19,
-      product: `Summer Vibes`,
-      productDescription: `Be a kid. Ask quetions. Challenge your Mind`,
+      product: `Jock's Life By FansSol`,
+      productDescription: `Illustration by the famous FansSol who also drew the Fan Overture`,
     },
     {
       id: 20,
-      product: `You don't know me`,
-      productDescription: `There is no multiverse where you know who I am. I am the one who knocks`,
+      product: `Stay Hard Running Set`,
+      productDescription: `Inspired by David Goggins. Never give up. Stay Hard. See what you're made of.`,
     },
+   
 ];
 
     for (const merch of merchdata) {
