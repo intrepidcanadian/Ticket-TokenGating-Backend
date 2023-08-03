@@ -116,6 +116,229 @@ exports.seed = async function (knex) {
       eventinformation: `Beyond the individual matchups, the collective team strategies will be intriguing to observe. Both the Raptors and the Lakers have unique playing styles and offensive systems that have been refined over the years. The clash of these distinct approaches will be an exciting aspect of the game.`,
 
     },
+    {
+      id: 11,
+      eventname: `Toronto Raptors vs. LA Lakers`,
+      artist: `Toronto Fan`,
+      seat: `A2-24`,
+      location: 'Scotiabank Arena, Toronto, ON',
+      eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+      eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+      eventinformation: `Raptors fans are characterized by their energetic and enthusiastic presence at games, both at the Scotiabank Arena and during away games. They fill the arena with electrifying cheers, chants, and applause, creating an intense and vibrant atmosphere that motivates the players and intimidates opponents.`,
+
+    },
+    {
+      id: 12,
+      eventname: `Toronto Raptors vs. LA Lakers`,
+      artist: `Toronto Fan`,
+      seat: `A3-24`,
+      location: 'Scotiabank Arena, Toronto, ON',
+      eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+      eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+      eventinformation: `Raptors fans are also recognized for their sense of unity and inclusivity. They welcome newcomers with open arms, fostering a sense of belonging and friendship among fellow supporters. They often gather at local bars, restaurants, or fan meetups to watch games together, sharing the highs and lows of the team's journey.`,
+
+    },
+    {
+      id: 13,
+      eventname: `Toronto Raptors vs. LA Lakers`,
+      artist: `D'Angelo Russell`,
+      seat: `A3-25`,
+      location: 'Scotiabank Arena, Toronto, ON',
+      eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+      eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+      eventinformation: `D'Angelo Russell is a talented and versatile professional basketball player known for his skills as a point guard. Born on February 23, 1996, in Louisville, Kentucky, Russell has made a significant impact in the National Basketball Association (NBA) through his unique playing style and on-court contributions.`,
+
+    },
+    {
+      id: 14,
+      eventname: `Toronto Raptors vs. LA Lakers`,
+      artist: `Larry O'Brien Trophy`,
+      seat: `B3-25`,
+      location: 'Scotiabank Arena, Toronto, ON',
+      eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+      eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+      eventinformation: `The Larry O'Brien NBA Championship Trophy, often simply referred to as the Larry O'Brien Trophy, is the prestigious award presented annually to the team that wins the National Basketball Association (NBA) Finals. The trophy is named after Larry O'Brien, who served as the NBA commissioner from 1975 to 1984 and played a significant role in the growth and development of the league during that period.`,
+
+    },
+    {
+      id: 15,
+      eventname: `Toronto Raptors vs. LA Lakers`,
+      artist: `Fans of the Game`,
+      seat: `C3-25`,
+      location: 'Scotiabank Arena, Toronto, ON',
+      eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+      eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+      eventinformation: `Basketball's universal appeal lies in its ability to transcend cultural, geographical, and social boundaries, making it one of the most widely played and watched sports around the world.`,
+
+    },
+    {
+      id: 16,
+      eventname: `Toronto Raptors vs. LA Lakers`,
+      artist: `Scotiabank Arena`,
+      seat: `C3-6`,
+      location: 'Scotiabank Arena, Toronto, ON',
+      eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+      eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+      eventinformation: `Scotiabank Arena is a prominent multi-purpose indoor arena located in downtown Toronto, Ontario, Canada. It is one of the premier sports and entertainment venues in the city and serves as the home arena for several major sports teams.`,
+
+    },
+    {
+      id: 17,
+      eventname: `Toronto Raptors vs. LA Lakers`,
+      artist: `Masai Ujiri`,
+      seat: `C1-6`,
+      location: 'Scotiabank Arena, Toronto, ON',
+      eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+      eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+      eventinformation: `Ujiri's basketball journey began as a player in Nigeria. He eventually moved to the United States to play college basketball at Bismarck State College and Montana State University. While his playing career didn't lead to the NBA, he transitioned into scouting and front office roles.`,
+
+    },
+    {
+      id: 18,
+      eventname: `Toronto Raptors vs. LA Lakers`,
+      artist: `Raptor Enthusiasts`,
+      seat: `E1-6`,
+      location: 'Scotiabank Arena, Toronto, ON',
+      eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+      eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+      eventinformation: `The Toronto Raptors' official mascot is named "Raptor," often affectionately referred to as "The Raptor." Raptor is a large, energetic, and anthropomorphic dinosaur character who serves as the team's entertaining and spirited mascot during games and various events. The mascot plays a significant role in engaging fans, especially younger ones, and enhancing the overall game experience.`,
+
+    },
+    {
+      id: 19,
+      eventname: `Toronto Raptors vs. LA Lakers`,
+      artist: `Lebron James`,
+      seat: `A9-3`,
+      location: 'Scotiabank Arena, Toronto, ON',
+      eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+      eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+      eventinformation: `Lebron James is the league leading scorer in NBA history. He is also a four-time NBA MVP, four-time NBA Finals MVP, and two-time Olympic gold medalist.`,
+
+    },    
+    {
+      id: 20,
+      eventname: `Toronto Raptors vs. LA Lakers`,
+      artist: `Larry O'Brien Trophy`,
+      seat: `F22-3`,
+      location: 'Scotiabank Arena, Toronto, ON',
+      eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+      eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+      eventinformation: `The trophy is made of sterling silver and vermeil with a 24 karat gold overlay. It stands 2 feet tall and weighs 14.5 pounds. The trophy is topped with a 24 karat gold basketball and has a 24 karat gold overlay on the rim of the trophy.`,
+
+    },
+    
+    {
+      id: 21,
+      eventname: `Toronto Raptors vs. LA Lakers`,
+      artist: `Waterfront Toronto`,
+      seat: `T3-5`,
+      location: 'Scotiabank Arena, Toronto, ON',
+      eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+      eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+      eventinformation: `Toronto is home to the most fervent fans. The city's love for basketball is evident in the passionate support it provides to the Raptors. The team's success has helped to elevate the sport's popularity in the city, inspiring a new generation of basketball enthusiasts.`,
+
+    },
+
+    {
+      id: 22,
+      eventname: `Toronto Raptors vs. LA Lakers`,
+      artist: `Masai Ujiri`,
+      seat: `F22-5`,
+      location: 'Scotiabank Arena, Toronto, ON',
+      eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+      eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+      eventinformation: `Masai also runs a basketball camp in Africa. Masai has been known to be a philanthropist and has donated millions of dollars to various charities.`,
+
+    },
+
+    
+    {
+      id: 23,
+      eventname: `Toronto Raptors vs. LA Lakers`,
+      artist: `Pascal Siakam`,
+      seat: `F1-3`,
+      location: 'Scotiabank Arena, Toronto, ON',
+      eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+      eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+      eventinformation: `Pascal Siakam, full name Pascal Siakam Doumbouya, is a professional basketball player known for his versatility, athleticism, and rapid rise in the National Basketball Association (NBA).`,
+
+    },
+    {
+    id: 24,
+    eventname: `Toronto Raptors vs. LA Lakers`,
+    artist: `Sold-out Crowd Night`,
+    seat: `Z22-3`,
+    location: 'Scotiabank Arena, Toronto, ON',
+    eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+    eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+    eventinformation: `The cheers at the Scotiabank Arena can be heard around downtown during games. The Raptors' home court advantage is a significant factor in their success, as the team feeds off the energy of the crowd and uses it to their advantage.`,
+
+  },
+  {
+    id: 25,
+    eventname: `Toronto Raptors vs. LA Lakers`,
+    artist: `Sold-out Crowd Night`,
+    seat: `O10-9`,
+    location: 'Scotiabank Arena, Toronto, ON',
+    eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+    eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+    eventinformation: `The best thing about a live game is the atmosphere. The energy of the crowd, the excitement of the players, and the intensity of the game all combine to create an unforgettable experience.`,
+
+  },
+  {
+    id: 26,
+    eventname: `Toronto Raptors vs. LA Lakers`,
+    artist: `We the North`,
+    seat: `L3-2`,
+    location: 'Scotiabank Arena, Toronto, ON',
+    eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+    eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+    eventinformation: `The Raptors' slogan, "We the North," is a rallying cry for the team and its fans. It represents the team's identity as a Canadian franchise and its commitment to representing the country on the world stage.`,
+
+  },
+  {
+    id: 27,
+    eventname: `Toronto Raptors vs. LA Lakers`,
+    artist: `Jurassic Park`,
+    seat: `G6-1`,
+    location: 'Scotiabank Arena, Toronto, ON',
+    eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+    eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+    eventinformation: `I love the Jurassic Park. The cheers of everyone standing up and the bars nearby are simply delightful during the playoffs`,
+
+  },
+
+  {
+    id: 28,
+    eventname: `Toronto Raptors vs. LA Lakers`,
+    artist: `Larry O'Brien Trophy`,
+    seat: `P11-12`,
+    location: 'Scotiabank Arena, Toronto, ON',
+    eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+    eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+    eventinformation: `Eyes on the prize`,
+
+  },
+  {
+    id: 29,
+    eventname: `Toronto Raptors vs. LA Lakers`,
+    artist: `Concessions`,
+    seat: `H22-3`,
+    location: 'Scotiabank Arena, Toronto, ON',
+    eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+    eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+    eventinformation: `When I was young, my father would bring me to games and my highlight were the concessions`,
+  },
+  {
+    id: 30,
+    eventname: `Toronto Raptors vs. LA Lakers`,
+    artist: `Lebron James`,
+    seat: `H10-3`,
+    location: 'Scotiabank Arena, Toronto, ON',
+    eventtimestart: '2023-07-30 19:00:00', // July 30, 2023, 7:00 PM
+    eventtimeend: '2023-07-30 23:00:00',   // July 30, 2023, 11:00 PM
+    eventinformation: `Lebron is a role model. He takes care of his community and his family. He is a great player and a great person`,
+  },
 
 
 
